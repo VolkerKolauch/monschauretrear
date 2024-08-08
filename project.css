@@ -1,0 +1,147 @@
+/* Hintergrunddesign body */
+
+/* Design der Überschrift */
+h1 {
+  text-align: center;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  color: rgb(242, 243, 245);
+  text-shadow: 3px 3px 2px rgb(26, 5, 5);
+  text-decoration: underline;
+}
+/* Border von h1 als Klasse, um die Übersichtlichkeit zu haben */
+.h1-border {
+  border: 1px solid rgb(212, 26, 26);
+  border-radius: 10px;
+  padding: 20px;
+  background-color: black;
+  opacity: 0.7;
+  box-shadow: 20px 20px 2px rgb(88, 18, 18);
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: aliceblue;
+}
+
+/* Design der Navigationsleiste. Als Klasse, da ich eine weiter Navigationsleiste benötige. */
+
+.navigation {
+  border: 2px solid rgb(56, 9, 9);
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+  min-height: 10vh;
+  padding-top: 20px;
+
+  background-color: rgb(156, 24, 24);
+  opacity: 0.7;
+  /* Links sollen zentriert sein. */
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  font-size: 30px;
+}
+a {
+  color: aliceblue;
+}
+/* Hervorheben der linkflächen, wenn sie anzuklicken sind */
+a:hover {
+  color: rgb(108, 23, 206);
+}
+
+/* Design der UL */
+
+ul {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: aliceblue;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: aliceblue;
+}
+
+.div {
+  border: 2px solid brown;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+  min-height: 10vh;
+  padding-top: 80px;
+
+  background-color: rgb(142, 151, 13);
+  opacity: 0.7;
+}
+
+section {
+  border: 2px solid brown;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+  min-height: 10vh;
+  padding-top: 80px;
+
+  background-color: rgb(142, 151, 13);
+  opacity: 0.7;
+}
+
+/* ---------------------------------------------------------------------------------- */
+/* CSS für die Unterseiten! */
+
+/* Haus */
+
+.haus01 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: aliceblue;
+  text-align: center;
+  border: 2px solid rgb(24, 10, 10);
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 20px;
+  margin-left: 200px;
+  min-height: 10vh;
+  max-width: 80vh;
+  padding-top: 10px;
+
+  background-color: rgb(142, 151, 13);
+  opacity: 0.7;
+}
+
+/* Räume */
+.raum01 {
+  border: 2px solid rgb(24, 10, 10);
+  border-radius: 10px;
+  padding: 5px;
+  width: 1000px;
+  min-height: 100px;
+  background-color: rgb(142, 151, 13);
+}
+
+.raum02 {
+  /* display: inline-block; */
+  border: 2px solid rgb(199, 14, 14);
+  border-radius: 10px;
+  padding: 5px;
+  width: 800px;
+  height: 400px;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.raum03 {
+  display: inline-block;
+  border: 2px solid rgb(245, 241, 5);
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 130px;
+  margin-left: 0px;
+  width: 150px;
+  height: 200px;
+}
